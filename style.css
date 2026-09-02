@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Gotu&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: rgb(200, 100, 0, 1.0);
+}
+
+h1,h2,h3{
+    font-family: "roboto", fantasy;
+    font-weight: 200;
+}
+
+h1{
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 60px;
+}
+
+h2 {
+    text-decoration: underline;
+    font-size: 45px;
+}
+
+h3 {color: plum
+
+}
+
+li{
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+
+ul li{
+    background-color: aquamarine;
+}
+
+ol li{
+    list-style: lower-greek;
+}
