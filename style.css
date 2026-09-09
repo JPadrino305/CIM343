@@ -37,3 +37,67 @@ ul li{
 ol li{
     list-style: lower-greek;
 }
+
+img{
+    width: 200px; 
+   /* height: 300px; */
+    padding: 20px;
+    /*border-width: 10px;
+    border-color: white;
+    border-style: solid;*/
+    border: 10px white solid;
+    margin-top: 10px; /*same 1 line technique for border can be applied here */
+
+}
+
+header {
+width: 960px;
+border: 20px green;
+padding-block: 20px;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+main {
+width: 960px;
+}
+
+
+footer {
+width: 960px;
+}
+
+.inline{
+    display:inline-block;
+}
+
+nav{
+    background-color: white;
+
+
+}
+
+nav ul{
+display: grid;
+grid-template-columns: 100px 100px 100px 100px;
+grid-template-rows: auto;
+gap: 20px;
+justify-content: center;
+
+}
+
+nav ul li{
+list-style: none;
+
+}
+
+nav ul li a{
+
+
+}
+
+nav ul li a:hover{
+
+
+}
