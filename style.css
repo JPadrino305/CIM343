@@ -81,7 +81,7 @@ nav{
 nav ul{
 display: grid;
 grid-template-columns: 100px 100px 100px 100px;
-grid-template-rows: auto;
+grid-template-rows: 50px;
 gap: 20px;
 justify-content: center;
 
@@ -93,11 +93,27 @@ list-style: none;
 }
 
 nav ul li a{
-
+text-decoration: none;
 
 }
 
 nav ul li a:hover{
+background-color: blanchedalmond;
+
+}
+
+.bgimage{
+    background-image: url("..images/coffee.jpg");
+}
+
+.imagegallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+}
+
+.imagegallery>img{
 
 
 }
