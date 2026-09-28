@@ -6,11 +6,37 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="js/clicking.js" defer></script>
+    <script src="js/tabs.js" defer></script>
+    <script src="js/gallery.js" defer></script>
 </head>
 <body>
     <h1 id="heading1"></h1>
     <div id="redClick">
         <p>Click me!</p>
     </div>
+    <section>
+<h2>Tab Example</h2>
+<div class="buttonGrid">
+    <button class="place">London</button>
+    <button class="place">New York</button>
+    <button class="place">Tokyo</button>
+</div>
+<div id="tabContent"></div>
+    </section>
+
+    <section>
+        <h2>Image Gallery</h2>
+        <div>
+            <button id="next">Next</button>
+            <button id="prev">Previous</button>
+            <button id="start">Start</button>
+            <button id="stop">Stop</button>
+        </div>
+        <div>
+            <img class="images" src="https://images.pexels.com/photos/37875596/pexels-photo-37875596.jpeg" alt="school">
+            <img class="images" src="https://images.pexels.com/photos/15011656/pexels-photo-15011656.jpeg" alt="landscape">
+
+        </div>
+    </section>
 </body>
 </html>

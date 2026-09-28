@@ -8,4 +8,6 @@ nav ul{
     grid-template-rows: auto auto auto auto;
     grid-template-columns: 1fr;
     height: auto;
+    position:sticky
+    
 }
