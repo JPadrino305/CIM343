@@ -8,6 +8,7 @@
     <script src="js/clicking.js" defer></script>
     <script src="js/tabs.js" defer></script>
     <script src="js/gallery.js" defer></script>
+    <script src="js/form.js" defer></script>
 </head>
 <body>
     <h1 id="heading1"></h1>
@@ -37,6 +38,23 @@
             <img class="images" src="https://images.pexels.com/photos/15011656/pexels-photo-15011656.jpeg" alt="landscape">
 
         </div>
+    </section>
+
+    <section>
+<h3>Choose Your Favorite Animal:</h3>
+        <form>
+            <label for="animals">Animal:</label>
+            <select name="animals" id="animals">
+            <option value="goorilla">gorilla</option>
+            <option value="tiger">tiger</option>
+            <option value="koala">koala</option>
+            <option value="zebra">zebra</option>
+</select>
+
+<button id="submit" type="button">Submit</button>
+        </form>
+
+        <div id="addImages"></div>
     </section>
 </body>
 </html>
