@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+
+  <script src="quizhw.js" defer></script>
+</head>
+
+<body style="background-color: #eeeeee; font-family: Arial, sans-serif;">
+
+  <div
+    id="quiz-container"
+    class="uk-card uk-card-default uk-card-body uk-width-1-2@m"
+    style="background-color: white; max-width: 600px; margin: 40px auto; padding: 30px;"
+  >
+
+    <h1>Animal Quiz</h1>
+
+    <h2 id="question" class="uk-card-title"></h2>
+
+    <div id="optionsForm">
+
+      <button class="uk-button uk-button-default answer" type="button" value="Elephant">
+        Elephant
+      </button>
+
+      <button class="uk-button uk-button-default answer" type="button" value="Lion">
+        Lion
+      </button>
+
+      <button class="uk-button uk-button-default answer" type="button" value="Bat">
+        Bat
+      </button>
+
+      <button class="uk-button uk-button-default answer" type="button" value="Zebra">
+        Zebra
+      </button>
+
+      <button class="uk-button uk-button-default answer" type="button" value="Cheetah">
+        Cheetah
+      </button>
+
+    </div>
+
+    <button
+      id="submit"
+      type="button"
+      style="background-color: green; color: white; padding: 10px 20px; border: none; margin-top: 20px;"
+    >
+      Submit
+    </button>
+
+    <p id="result"></p>
+
+  </div>
+
+</body>
+</html>
