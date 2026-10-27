@@ -2,24 +2,24 @@
 
 const qa = [
   {
-    question: "What is the largest land animal?",
-    answer: "Elephant"
+    question: "What is the capital of FLorida?",
+    answer: "Tallahassee"
   },
   {
-    question: "Which animal is known as the king of the jungle?",
-    answer: "Lion"
+    question: "Which state is Miami located in?",
+    answer: "Florida"
   },
   {
-    question: "What mammal can fly?",
-    answer: "Bat"
+    question: "What is the most popular phone?",
+    answer: "iPhone"
   },
   {
-    question: "Which animal is famous for its black and white stripes?",
-    answer: "Zebra"
+    question: "Who is the famous actor in the Titanic?",
+    answer: "Leonardo Dicaprio"
   },
   {
-    question: "What is the fastest land animal?",
-    answer: "Cheetah"
+    question: "What color is the sky?",
+    answer: "blue"
   }
 ];
 
