@@ -17,30 +17,95 @@
     style="background-color: white; max-width: 600px; margin: 40px auto; padding: 30px;"
   >
 
-    <h1>Animal Quiz</h1>
+    <h1>Random Quiz</h1>
 
     <h2 id="question" class="uk-card-title"></h2>
 
     <div id="optionsForm">
 
-      <button class="uk-button uk-button-default answer" type="button" value="Elephant">
-        Elephant
+      <input
+        id="answer1"
+        type="radio"
+        name="option"
+        value="Tallahassee"
+        hidden
+      >
+
+      <button
+        class="uk-button uk-button-default answer"
+        type="button"
+        value="Tallahassee"
+        onclick="document.getElementById('answer1').checked = true; document.getElementById('result').textContent = 'Selected: ' + this.value;"
+      >
+        Tallahassee
       </button>
 
-      <button class="uk-button uk-button-default answer" type="button" value="Lion">
-        Lion
+      <input
+        id="answer2"
+        type="radio"
+        name="option"
+        value="Florida"
+        hidden
+      >
+
+      <button
+        class="uk-button uk-button-default answer"
+        type="button"
+        value="Florida"
+        onclick="document.getElementById('answer2').checked = true; document.getElementById('result').textContent = 'Selected: ' + this.value;"
+      >
+        Florida
       </button>
 
-      <button class="uk-button uk-button-default answer" type="button" value="Bat">
-        Bat
+      <input
+        id="answer3"
+        type="radio"
+        name="option"
+        value="iPhone"
+        hidden
+      >
+
+      <button
+        class="uk-button uk-button-default answer"
+        type="button"
+        value="iPhone"
+        onclick="document.getElementById('answer3').checked = true; document.getElementById('result').textContent = 'Selected: ' + this.value;"
+      >
+        iPhone
       </button>
 
-      <button class="uk-button uk-button-default answer" type="button" value="Zebra">
-        Zebra
+      <input
+        id="answer4"
+        type="radio"
+        name="option"
+        value="Leonardo Dicaprio"
+        hidden
+      >
+
+      <button
+        class="uk-button uk-button-default answer"
+        type="button"
+        value="Leonardo Dicaprio"
+        onclick="document.getElementById('answer4').checked = true; document.getElementById('result').textContent = 'Selected: ' + this.value;"
+      >
+        Leonardo Dicaprio
       </button>
 
-      <button class="uk-button uk-button-default answer" type="button" value="Cheetah">
-        Cheetah
+      <input
+        id="answer5"
+        type="radio"
+        name="option"
+        value="blue"
+        hidden
+      >
+
+      <button
+        class="uk-button uk-button-default answer"
+        type="button"
+        value="blue"
+        onclick="document.getElementById('answer5').checked = true; document.getElementById('result').textContent = 'Selected: ' + this.value;"
+      >
+        blue
       </button>
 
     </div>
@@ -57,5 +122,4 @@
 
   </div>
 
-</body>
-</html>
+</
